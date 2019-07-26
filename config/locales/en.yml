@@ -1,0 +1,10 @@
+en:
+  activerecord:
+    errors:
+      models:
+        animal:
+          attributes:
+            owner:
+              overage: must be overage
+              invalid_initial: name must not start with 'A'
+              cost_exceeded: must not exceed monthly cost
