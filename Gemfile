@@ -43,9 +43,14 @@ group :development do
 end
 
 group :test do
-  gem 'factory_bot_rails'
   gem 'shoulda-matchers'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# code analyze
+gem 'flay'
+gem 'flog'
+# gem 'heckle'
+gem 'mutant-rspec'
